@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bidchat Rest API Assignment</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body style="font-family:Arial, Helvetica, sans-serif; font-size: 14px;padding: 50px">
+    <h1><u>Bidchat REST API Assignment</u></h1><br/>
+		<b>List of ProductLines -</b> https://boiling-ridge-93478.herokuapp.com//api/productlines        
+		<br> <br>
+		<div style="padding-left: 50px">
+			<b>Example URLs -</b> https://boiling-ridge-93478.herokuapp.com//api/productlines?q=1917 Grand Touring Sedan
+		</div>
+		
+		
+		<br/>	
+		<b>List of Orders -</b> https://boiling-ridge-93478.herokuapp.com//api/listorders/:customerNumber
+		<br> <br>
+		<div style="width: 100%;float: left;padding-left: 50px">
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left"><b>Example URLs -</b></div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorders/363</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 80%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorders/363?q=1969 Dodge Charger</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 80%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorders/363?q=1952 Alpine Renault 1300&x=Online Diecast Creations Co.</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 80%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorders/363?x=Online Diecast Creations Co.</div>
+			</div>
+		</div>
+		<br> <br><br> <br><br>
+		<b>Order Details -</b> https://boiling-ridge-93478.herokuapp.com//api/listorderdetails/:orderNumber
+		<br> <br>
+		<div style="width: 100%;float: left;padding-left: 50px">
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left"><b>Example URLs -</b></div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorderdetails/10103</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorderdetails/10103?limit=10&offset=0</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorderdetails/10103?q=1934 Ford V8 Coupe</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorderdetails/10103?q=1934 Ford V8 Coupe&x=Baane Mini Imports</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listorderdetails/10103?x=Baane Mini Imports</div>
+			</div>
+		</div>
+		<br/><br/>	<br/><br/>	<br/><br/>
+		<b>List of all products -</b> https://boiling-ridge-93478.herokuapp.com//api/listproducts
+		<br/><br/>
+		<div style="width: 100%;float: left;padding-left: 50px">
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left"><b>Example URLs -</b></div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproducts?limit=10&offset=0</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproducts?q=1911 Ford Town Car</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproducts?x=Atelier graphique</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproducts?q=1999 Indy 500 Monte Carlo SS&x=Atelier graphique</div>
+			</div>
+		</div>
+		<br/><br/>	<br/><br/><br/>
+		<b>product details -</b> https://boiling-ridge-93478.herokuapp.com//api/listproductdetails/:productCode
+		<br/><br/>
+		<div style="width: 100%;float: left;padding-left: 50px">
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left"><b>Example URLs -</b></div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproductdetails/S10_1949</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 50%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproductdetails/S10_1949?q=1952 Alpine Renault 1300</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 80%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproductdetails/S10_1949?q=1952 Alpine Renault 1300&x=Online Diecast Creations Co.</div>
+			</div>
+			<div style="width: 100%;float: left">
+				<div style="width: 9%;float: left">&nbsp;</div> 
+				<div style="width: 80%;float: left">https://boiling-ridge-93478.herokuapp.com//api/listproductdetails/S10_1949?x=Baane Mini Imports</div>
+			</div>
+		</div>
+		<div style="width: 100%;float: left">-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
+		<br/><br/>	<br/><br/>
+		<b>Where </b>
+		<div style="width: 100%;float: left;padding-left: 50px"><b>?q</b> is search based on Product Name </div>
+		<div style="width: 100%;float: left;padding-left: 50px"><b>?x</b> is search based on Product Name </div>
+		<div style="width: 100%;float: left;padding-left: 50px"><b>?limit</b> Used for pagination </div>
+		<div style="width: 100%;float: left;padding-left: 50px"><b>?offset</b> Used for pagination </div>
+		<div style="width: 100%;float: left">--------------------------------------------------------------------------------****END****-----------------------------------------------------------------------------------------------</div>
+  </body>
+</html>
